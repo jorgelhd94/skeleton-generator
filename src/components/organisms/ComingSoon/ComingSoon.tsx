@@ -12,6 +12,7 @@ const ComingSoon = () => {
         <h1 className="text-gray-300 text-5xl font-bold">
           Work In Progress...
         </h1>
+
       </div>
 
       <div className="lg:pt-10 max-lg:mb-10">
