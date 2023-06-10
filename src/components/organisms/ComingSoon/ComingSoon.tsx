@@ -3,7 +3,7 @@ import Logo from "../../../assets/logo.png";
 
 const ComingSoon = () => {
   return (
-    <div className="flex max-lg:flex-col max-lg:justify-center max-lg:items-center lg:justify-around min-h-[100vh] lg:pt-40">
+    <div className="flex max-lg:flex-col max-lg:justify-center max-lg:items-center lg:justify-around min-h-[90vh] lg:pt-40">
       <div className="flex flex-col gap-2 max-lg:order-1">
         <img src={Logo} width={180} className="max-lg:hidden mb-16" />
         <h2 className="text-gray-500 text-3xl font-bold">

@@ -1,4 +1,5 @@
 import Logo from "../../atoms/Images/Logo/Logo";
+import ThemeToggle from "../../molecules/Toggles/ThemeToggle/ThemeToggle";
 
 const Navbar = () => {
   return (
@@ -21,15 +22,13 @@ const Navbar = () => {
               <summary>Parent</summary>
               <ul className="p-2 bg-base-100">
                 <li>
-                  <a>Link 1</a>
-                </li>
-                <li>
                   <a>Link 2</a>
                 </li>
               </ul>
             </details>
           </li>
         </ul>
+        <ThemeToggle />
       </div>
     </div>
   );
