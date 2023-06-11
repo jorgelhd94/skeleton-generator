@@ -12,7 +12,7 @@ const ThemeToggle = () => {
         <FontAwesomeIcon icon={faSun} />
       </button>
       <button
-        className="btn btn-square text-lg"
+        className="btn btn-square text-lg text-slate-600"
         data-set-theme="dracula"
         data-act-class="hidden"
       >

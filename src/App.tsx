@@ -7,13 +7,12 @@ function App() {
   
   useEffect(() => {
     themeChange(false);
-    // 👆 false parameter is required for react project
   }, []);
 
   return (
     <>
       <SimpleLayout>
-        <ComingSoon />
+        {/* <ComingSoon /> */}
       </SimpleLayout>
     </>
   );
