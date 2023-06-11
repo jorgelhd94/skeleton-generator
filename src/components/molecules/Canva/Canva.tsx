@@ -1,5 +1,5 @@
-import { Stage, Layer, Transformer } from "react-konva";
-import { useRef, useState } from "react";
+import { Stage, Layer } from "react-konva";
+import { useState } from "react";
 import CircleElement from "../CanvaElements/CircleElement/CircleElement";
 
 const initialForms = [

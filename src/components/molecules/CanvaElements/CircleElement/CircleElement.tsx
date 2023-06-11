@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from "react";
+import { useRef, useEffect } from "react";
 import { Circle, Transformer } from "react-konva";
 
 interface CircleElementProps {
@@ -25,7 +25,7 @@ const CircleElement = ({
     event.target.getStage().container().style.cursor = "default";
   };
 
-  const onTransformEnd = (event: any) => {
+  const onTransformEnd = () => {
     const node = shapeRef.current;
     const scaleX = node.scaleX();
     const scaleY = node.scaleY();
