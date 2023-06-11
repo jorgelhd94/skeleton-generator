@@ -1,10 +1,9 @@
-import ComingSoon from "./components/organisms/ComingSoon/ComingSoon";
+import Canva from "./components/molecules/Canva/Canva";
 import SimpleLayout from "./components/templates/SimpleLayout/SimpleLayout";
 import { useEffect } from "react";
 import { themeChange } from "theme-change";
 
 function App() {
-  
   useEffect(() => {
     themeChange(false);
   }, []);
@@ -12,7 +11,7 @@ function App() {
   return (
     <>
       <SimpleLayout>
-        {/* <ComingSoon /> */}
+        <Canva />
       </SimpleLayout>
     </>
   );

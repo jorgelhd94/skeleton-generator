@@ -1,5 +1,5 @@
 .logoBtn {
-  animation: pulse 1.8s ease-in infinite;
+  animation: pulse 2.3s ease-in infinite;
 }
 
 @keyframes pulse {
